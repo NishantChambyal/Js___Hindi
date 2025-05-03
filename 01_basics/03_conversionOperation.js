@@ -1,12 +1,10 @@
-let score = "33";
+let score = "nish "
+
+let valueInNumber = Number(score)
 
 console.log(typeof score);
-console.log(typeof score);
-
-let valueInNumber = Number(score);
-
 console.log(valueInNumber);
-console.log(typeof valueInNumber);
+
 
 // "33" => 33
 // "33abc" => NaN
@@ -40,6 +38,8 @@ console.log(typeof stringNumber);
 // "55" => string
 // null => string
 // undefined => string
+// true /  false => string
+
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++ operations +++++++++++++++++++++++++++++++++++++++++++++++++
 
