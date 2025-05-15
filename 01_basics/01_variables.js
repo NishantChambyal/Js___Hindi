@@ -1,20 +1,22 @@
 const accountId = 144553
-let accountEmail = "Nishant@google.com"
-var accountPassword = "12345"
+let accountEmail = "Nishantgmail.com"
+var accountPassword = "123456"
 
-accountCity = "Shimla"  // avoid this type declaration
-let accountState;  // undefined
+accountCity = "shimla"
 
-// accountId = 2  // Not allowed 
-accountEmail = "NcNC@gmail.com"
-accountPassword = "212121"
-accountCity = "Jaipur"
+let accountState; // undefined
+
+// accountId = 2 // Not allowed
+
+accountEmail = "NcNC.com"
+accountPassword = 212121
+accountCity = "jaipur"
 
 console.log(accountId);
 
-/* 
-    Prefer Not To use var 
-    Because Of Issue in block and functional scope
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
 */
 
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
